@@ -21,6 +21,10 @@ Lilla: D968B2;
     background-color: #4FC7E0;
 }
 
+#emp img {
+    width: 100%;
+}
+
 #def {
     background-color: #ACD484;
 }
