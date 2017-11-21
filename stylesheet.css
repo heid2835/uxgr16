@@ -11,3 +11,32 @@ Iterate: 5C95C9;
 Lilla: D968B2;
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#emp {
+    background-color: #4FC7E0;
+}
+
+#def {
+    background-color: #ACD484;
+}
+
+#ide {
+    background-color: #F8A663;
+}
+
+#proto {
+    background-color: #F17F65;
+}
+
+#test {
+    background-color: #DD6668;
+}
+
+#imp {
+    background-color: #D968B2;
+}
