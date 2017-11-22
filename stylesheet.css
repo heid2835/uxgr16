@@ -12,9 +12,23 @@ Lilla: D968B2;
 
 */
 
-* {
+body {
     margin: 0;
     padding: 0;
+}
+
+section {
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    margin-left: 0;
 }
 
 #emp {
@@ -22,7 +36,8 @@ Lilla: D968B2;
 }
 
 #emp img {
-    width: 100%;
+    width: 70%;
+
 }
 
 #def {
