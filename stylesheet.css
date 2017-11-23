@@ -13,34 +13,69 @@ Lilla: D968B2;
 */
 
 * {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
+section {
+    padding: 10px;
+}
+
+#gruppe img {
+    width: 100vw;
+}
+
 #emp {
-    background-color: #4FC7E0;
+    background-color: #5990cb;
 }
 
 #emp img {
-    width: 100%;
+    width: 33%;
 }
 
 #def {
-    background-color: #ACD484;
+    background-color: #416c9c;
 }
 
 #ide {
-    background-color: #F8A663;
+    background-color: #e96e50;
 }
 
 #proto {
-    background-color: #F17F65;
+    background-color: #f9d242;
 }
 
 #test {
-    background-color: #DD6668;
+    background-color: #bd9e34;
 }
 
 #imp {
-    background-color: #D968B2;
+    background-color: #972263;
+}
+
+#divwrapper {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.first {
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.second {
+    width: 400px;
+    height: 150px;
+    border: 2px dotted black;
+}
+
+.third {
+    width: 400px;
+    height: 150px;
+    border: 2px dashed black;
 }
