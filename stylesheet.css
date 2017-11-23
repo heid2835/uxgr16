@@ -85,18 +85,18 @@ li {
 
 .first {
     width: 400px;
-    height: 150px;
+    height: 170px;
     border: 2px solid black;
 }
 
 .second {
     width: 400px;
-    height: 150px;
+    height: 170px;
     border: 2px dotted black;
 }
 
 .third {
     width: 400px;
-    height: 150px;
+    height: 170px;
     border: 2px dashed black;
 }
