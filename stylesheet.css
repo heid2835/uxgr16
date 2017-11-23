@@ -40,8 +40,12 @@ li {
     margin-left: 0;
 }
 
+h1 {
+    background-color: #d4d4d4;
+}
+
 #emp {
-    background-color: #5990cb;
+    /*    background-color: #5990cb;*/
 }
 
 #emp img {
@@ -49,15 +53,15 @@ li {
 }
 
 #def {
-    background-color: #416c9c;
+    /*    background-color: #416c9c;*/
 }
 
 #ide {
-    background-color: #e96e50;
+    /*    background-color: #e96e50;*/
 }
 
 #proto {
-    background-color: #f9d242;
+    /*    background-color: #f9d242;*/
 }
 
 #proto_link {
@@ -68,13 +72,20 @@ li {
 }
 
 #test {
-    background-color: #bd9e34;
+    /*    background-color: #bd9e34;*/
 }
 
 #imp {
-    background-color: #972263;
+    /*    background-color: #972263;*/
 }
 
+
+
+
+
+/***** GAMMEL ****/
+
+/*
 #divwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -98,3 +109,4 @@ li {
     height: 170px;
     border: 2px dashed black;
 }
+*/
