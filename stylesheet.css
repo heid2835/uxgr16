@@ -12,24 +12,21 @@ Lilla: D968B2;
 
 */
 
-<<<<<<< HEAD
 * {
     font-family: sans-serif;
-=======
+}
+
 body {
->>>>>>> origin/master
     margin: 0;
     padding: 0;
 }
 
 section {
-<<<<<<< HEAD
     padding: 10px;
 }
 
 #gruppe img {
     width: 100vw;
-=======
     padding: 30px;
 }
 
@@ -41,7 +38,6 @@ ul {
 li {
     margin-top: 10px;
     margin-left: 0;
->>>>>>> origin/master
 }
 
 #emp {
@@ -49,12 +45,8 @@ li {
 }
 
 #emp img {
-<<<<<<< HEAD
     width: 33%;
-=======
     width: 70%;
-
->>>>>>> origin/master
 }
 
 #def {
