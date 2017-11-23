@@ -26,8 +26,8 @@ section {
 }
 
 #gruppe img {
-    width: 100vw;
-    padding: 30px;
+    width: 80vw;
+    padding: 10px;
 }
 
 ul {
@@ -76,7 +76,6 @@ li {
 }
 
 #divwrapper {
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
 
