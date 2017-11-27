@@ -33,6 +33,19 @@ li {
 
 h1 {
     text-align: center;
+    color: #048b68;
+    margin-top: 0;
+}
+
+h2 {
+    color: #048b68;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #202532;
 }
 
 * {
@@ -42,12 +55,13 @@ h1 {
 /* Dropdown Button */
 
 .dropbtn {
-    background-color: #16896E;
+    background-color: #048b68;
     color: #C0D8D3;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    background-position: top;
 }
 
 /* Dropdown button on hover & focus */
@@ -60,7 +74,7 @@ h1 {
 /* The container <div> - needed to position the dropdown content */
 
 .dropdown {
-    position: relative;
+    position: fixed;
     display: inline-block;
 }
 
@@ -75,7 +89,7 @@ h1 {
 }
 
 .dropdown-content a {
-    color: #16896E;
+    color: #048b68;
     padding: 15px 15px;
     text-decoration: none;
     display: block;
@@ -90,27 +104,81 @@ h1 {
 
 /******Titel ******/
 
-#titel h1 {
-    margin-top: 55px;
+#titel {
     text-align: center;
+    position: relative;
 
 }
 
 /***** gruppe ********/
 
-/*  #gruppe img {
-      width: 80vw;
-      padding: 10px;
-  }*/
+#gruppe {
+    background-color: #C0D8D3;
+}
+
+#gruppe .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gruppe .column1 {
+    flex-grow: 1;
+    flex-basis: 375px;
+    margin: 10px;
+    padding-left: 15vw;
+
+}
+
+#gruppe .column2 {
+    flex-grow: 10;
+    flex-basis: 375px;
+    margin: 10px;
+}
+
+#gruppe .column2 a {
+    width: 7vw;
+    text-decoration: none;
+}
 
 /***** Empathize ***/
 
 #emp {
-    /*    background-color: #5990cb;*/
+    background-color: #048b68;
+}
+
+#emp h1 {
+    color: #C0D8D3;
+}
+
+#emp h3 {
+    margin-left: 15vw;
 }
 
 #emp img {
     width: 33%;
+    margin-left: 15vw;
+}
+
+#emp p {
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+#emp .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#emp .columna {
+    flex-grow: 1;
+    flex-basis: 375px;
+    margin: 10px;
+}
+
+#emp .columnb {
+    flex-grow: 1;
+    flex-basis: 375px;
+    margin: 10px;
 }
 
 /***** Empathize slut***/
