@@ -226,6 +226,7 @@ a {
 #ide h2 {
     color: #C0D8D3;
     margin-left: 15vw;
+    margin-top: 15px;
 }
 
 #ide h3 {
@@ -239,6 +240,8 @@ a {
 #ide p {
     width: 80vw;
     margin-left: 15vw;
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 
 /***** Ideate slut *****/
@@ -260,42 +263,39 @@ a {
 
 /***** Prototype test slut ****/
 
-#test {
-    /*    background-color: #bd9e34;*/
+/**** benchmarking *******/
+
+#benchmarking {
+    background-color: #048b68;
 }
 
-#imp {
-    /*    background-color: #972263;*/
+#benchmarking h1 {
+    color: #C0D8D3;
 }
 
-
-
-
-
-/***** GAMMEL ****/
-
-/*
-#divwrapper {
-    display: flex;
-    flex-wrap: wrap;
-
+#benchmarking p {
+    color: #C0D8D3;
+    margin-left: 15vw;
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 
-.first {
-    width: 400px;
-    height: 170px;
-    border: 2px solid black;
+/*********** Endelig idé *********/
+
+#end {
+    background-color: #C0D8D3;
 }
 
-.second {
-    width: 400px;
-    height: 170px;
-    border: 2px dotted black;
+#end a {
+    color: #048b68;
+    margin-left: 15vw;
 }
 
-.third {
-    width: 400px;
-    height: 170px;
-    border: 2px dashed black;
+#end h3 {
+    color: #048b68;
+    margin-left: 15vw;
 }
-*/
+
+#end iframe {
+    margin-left: 15vw;
+}
