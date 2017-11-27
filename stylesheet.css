@@ -174,12 +174,13 @@ a {
     flex-grow: 1;
     flex-basis: 375px;
     margin: 10px;
+    max-width: 50vw;
 }
 
 #emp .columnb {
-    flex-grow: 1;
+    flex-grow: 10;
     flex-basis: 375px;
-    margin: 10px;
+    max-width: 40vw;
 }
 
 /***** Empathize slut***/
@@ -208,20 +209,56 @@ a {
 
 /***** Define/Målgruppe *********/
 
+/***** Ideate *****/
+
 #ide {
-    /*    background-color: #e96e50;*/
+    background-color: #048b68;
 }
+
+#ide h1 {
+    color: #C0D8D3;
+}
+
+#ide a {
+    color: #C0D8D3;
+}
+
+#ide h2 {
+    color: #C0D8D3;
+    margin-left: 15vw;
+}
+
+#ide h3 {
+    margin-left: 15vw;
+}
+
+#ide h4 {
+    margin-left: 15vw;
+}
+
+#ide p {
+    width: 80vw;
+    margin-left: 15vw;
+}
+
+/***** Ideate slut *****/
+
+/***** Prototype test ****/
 
 #proto {
-    /*    background-color: #f9d242;*/
+    background-color: #C0D8D3;
 }
 
-#proto_link {
-    background-image: url(img/youtube.svg);
-    background-size: 100% 100%;
-    width: 10vw;
-    height: 7.5vw;
+#proto h3 {
+    color: #048b68;
+    margin-left: 15vw;
 }
+
+#proto iframe {
+    margin-left: 15vw;
+}
+
+/***** Prototype test slut ****/
 
 #test {
     /*    background-color: #bd9e34;*/
