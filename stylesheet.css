@@ -32,9 +32,10 @@ li {
 }
 
 h1 {
-    text-align: center;
+    /* text-align: center;*/
     color: #048b68;
     margin-top: 0;
+    margin-left: 15vw;
 }
 
 h2 {
@@ -183,9 +184,25 @@ a {
 
 /***** Empathize slut***/
 
+/***** Define/Målgruppe *********/
+
 #def {
-    /*    background-color: #416c9c;*/
+    background-color: #C0D8D3;
 }
+
+#def h3 {
+    margin-left: 15vw;
+}
+
+#def p {
+    margin-left: 15vw;
+}
+
+#def img {
+    margin-left: 15vw;
+}
+
+/***** Define/Målgruppe *********/
 
 #ide {
     /*    background-color: #e96e50;*/
