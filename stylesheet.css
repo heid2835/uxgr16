@@ -16,13 +16,15 @@ Lilla: D968B2;
     font-family: sans-serif;
 }
 
-/********* menu slut ********/
+/********* menu ********/
 
 header {
     position: fixed;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
+    background-color: #A3DAC5;
     width: 100%;
     padding: 1em;
+
 }
 
 header nav {
@@ -32,7 +34,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #000000;
+    color: white;
     padding-left: 4px;
     display: block;
 }
@@ -55,11 +57,6 @@ header nav a:hover {
         padding: 10px;
     }
 
-    #gruppe img {
-        width: 80vw;
-        padding: 10px;
-    }
-
     ul {
         list-style-type: none;
         padding: 0;
@@ -73,7 +70,15 @@ header nav a:hover {
     h1 {
         background-color: #d4d4d4;
     }
-
+    /***** gruppe ********/
+    /*  #gruppe img {
+      width: 80vw;
+      padding: 10px;
+  }*/
+    #gruppe h1 {
+        margin-top: 55px;
+    }
+    /***** Empathize ***/
     #emp {
         /*    background-color: #5990cb;*/
     }
@@ -82,6 +87,7 @@ header nav a:hover {
         width: 33%;
     }
 
+    /***** Empathize slut***/
     #def {
         /*    background-color: #416c9c;*/
     }
