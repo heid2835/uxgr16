@@ -259,7 +259,11 @@ a {
 
 #proto iframe {
     margin-left: 15vw;
+    width: 50vw;
+    height: 33vw;
+
 }
+
 
 /***** Prototype test slut ****/
 
@@ -298,4 +302,7 @@ a {
 
 #end iframe {
     margin-left: 15vw;
+    width: 50vw;
+    height: 33vw;
+
 }
