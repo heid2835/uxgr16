@@ -53,6 +53,17 @@ a {
     font-family: sans-serif;
 }
 
+.thick-green-border {
+    border-color: #048b68;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.smaller-image {
+    width: 30px;
+}
+
 /* Dropdown Button */
 
 .dropbtn {
