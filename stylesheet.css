@@ -167,7 +167,7 @@ a {
 }
 
 #emp img {
-    width: 33%;
+    width: 20vw;
     margin-left: 15vw;
 }
 
@@ -182,16 +182,17 @@ a {
 }
 
 #emp .columna {
-    flex-grow: 1;
-    flex-basis: 375px;
-    margin: 10px;
-    max-width: 50vw;
+    flex-grow: 0;
+    flex-basis: 450px;
+    width: 20vw;
 }
 
 #emp .columnb {
-    flex-grow: 10;
-    flex-basis: 375px;
-    max-width: 40vw;
+    flex-grow: 3;
+    flex-basis: 450px;
+    max-width: 30vw;
+    padding-left: 10px;
+
 }
 
 /***** Empathize slut***/
@@ -212,6 +213,7 @@ a {
 
 #def img {
     margin-left: 15vw;
+    max-width: 300px;
 }
 
 #def p {
