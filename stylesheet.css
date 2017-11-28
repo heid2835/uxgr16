@@ -345,6 +345,10 @@ a {
     color: black;
 }
 
+/********* Endelig idé slut **********/
+
+/********* Ikon design ***************/
+
 #ikon {
     background-color: #048b68;
 }
@@ -368,4 +372,18 @@ a {
 #ikon img {
     width: 20vw;
     margin-left: 15vw;
+}
+
+/***************Ikon design slut ************/
+
+/************** Styletile *******************/
+
+.style p {
+    width: 70vw;
+    margin-left: 15vw;
+    color: #048b68;
+}
+
+footer {
+    text-align: center;
 }
