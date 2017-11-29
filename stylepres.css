@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(img/baggrund_presentationsite.png);
+    background-position: fixed;
+    background-size: cover;
+}
+
+top {
+    background-image: url(img/Logoubaggrund.png);
+    background-size: ;
+}
