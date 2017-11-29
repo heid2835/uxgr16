@@ -15,6 +15,7 @@ Lilla: D968B2;
 body {
     margin: 0;
     padding: 0;
+    background-color: #C0D8D3;
 }
 
 section {
@@ -32,10 +33,11 @@ li {
 }
 
 h1 {
-    /* text-align: center;*/
     color: #048b68;
     margin-top: 0;
     margin-left: 15vw;
+    margin-bottom: 0;
+    padding-top: 35px;
 }
 
 h2 {
@@ -74,6 +76,8 @@ a {
     border: none;
     cursor: pointer;
     background-position: top;
+    z-index: -1;
+
 }
 
 /* Dropdown button on hover & focus */
@@ -88,6 +92,7 @@ a {
 .dropdown {
     position: fixed;
     display: inline-block;
+    z-index: 2;
 }
 
 .dropdown-content {
@@ -119,6 +124,8 @@ a {
 #titel {
     text-align: center;
     position: relative;
+    background-color: #C0D8D3;
+    z-index: 0;
 
 }
 
@@ -138,7 +145,6 @@ a {
     flex-basis: 375px;
     margin: 10px;
     padding-left: 15vw;
-
 }
 
 #gruppe .column2 {
@@ -150,6 +156,10 @@ a {
 #gruppe .column2 a {
     width: 7vw;
     text-decoration: none;
+}
+
+.column2 a:hover {
+    color: #048b68;
 }
 
 /***** Empathize ***/
@@ -164,10 +174,11 @@ a {
 
 #emp h3 {
     margin-left: 15vw;
+    color: #C0D8D3;
 }
 
 #emp img {
-    width: 33%;
+    width: 20vw;
     margin-left: 15vw;
 }
 
@@ -182,16 +193,20 @@ a {
 }
 
 #emp .columna {
-    flex-grow: 1;
-    flex-basis: 375px;
-    margin: 10px;
-    max-width: 50vw;
+    flex-grow: 0;
+    flex-basis: 450px;
+    width: 20vw;
 }
 
 #emp .columnb {
-    flex-grow: 10;
-    flex-basis: 375px;
-    max-width: 40vw;
+    flex-grow: 3;
+    flex-basis: 450px;
+    max-width: 30vw;
+    padding-left: 10px;
+}
+
+#emp a:hover {
+    color: #C0D8D3;
 }
 
 /***** Empathize slut***/
@@ -212,6 +227,7 @@ a {
 
 #def img {
     margin-left: 15vw;
+    max-width: 300px;
 }
 
 #def p {
@@ -232,6 +248,10 @@ a {
 
 #ide a {
     color: #C0D8D3;
+}
+
+#ide a:hover {
+    color: black;
 }
 
 #ide h2 {
@@ -272,9 +292,7 @@ a {
     margin-left: 15vw;
     width: 50vw;
     height: 33vw;
-
 }
-
 
 /***** Prototype test slut ****/
 
@@ -293,6 +311,10 @@ a {
     margin-left: 15vw;
     margin-bottom: 0;
     padding-bottom: 15px;
+}
+
+#benchmarking a:hover {
+    color: #C0D8D3;
 }
 
 /*********** Endelig idé *********/
@@ -315,5 +337,59 @@ a {
     margin-left: 15vw;
     width: 50vw;
     height: 33vw;
+}
 
+#end a:hover {
+    color: black;
+}
+
+/********* Endelig idé slut **********/
+
+/********* Ikon design ***************/
+
+#ikon {
+    background-color: #048b68;
+}
+
+#ikon h1 {
+    color: #C0D8D3;
+}
+
+#ikon h3 {
+    color: #C0D8D3;
+    margin-left: 15vw;
+}
+
+#ikon p {
+    width: 70vw;
+    margin-left: 15vw;
+    color: #C0D8D3;
+}
+
+
+#ikon img {
+    width: 20vw;
+    margin-left: 15vw;
+}
+
+
+#test iframe {
+    margin-left: 15vw;
+    width: 50vw;
+    height: 33vw;
+}
+
+
+/***************Ikon design slut ************/
+
+/************** Styletile *******************/
+
+.style p {
+    width: 70vw;
+    margin-left: 15vw;
+    color: #048b68;
+}
+
+footer {
+    text-align: center;
 }
