@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 section {
@@ -84,7 +84,7 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #C0D8D3;
+    background-color: #97eecf;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
@@ -110,7 +110,7 @@ a {
 #titel {
     text-align: center;
     position: relative;
-    background-color: #C0D8D3;
+    background-color: #97eecf;
     z-index: 0;
 
 }
@@ -118,7 +118,7 @@ a {
 /***** gruppe ********/
 
 #gruppe {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #gruppe .sectionwrapper {
@@ -200,7 +200,7 @@ a {
 /***** Define/Målgruppe *********/
 
 #def {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #def h3 {
@@ -266,7 +266,7 @@ a {
 /***** Prototype test ****/
 
 #proto {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #proto h3 {
@@ -306,7 +306,7 @@ a {
 /*********** Endelig idé *********/
 
 #end {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #end a {
@@ -368,8 +368,10 @@ a {
     color: #048b68;
 }
 
-footer {
-    text-align: center;
+.style img {
+    padding-left: 15vw;
+    width: 60vw;
+    padding-bottom: 20px;
 }
 
 /******** styletile slut *********/
@@ -405,3 +407,11 @@ footer {
 }
 
 /******** Usability test  slut ********/
+
+/******** footer ************/
+
+footer {
+    text-align: center;
+}
+
+/********* footer slut **********/
