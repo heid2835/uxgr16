@@ -1,419 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #97eecf;
+    font-family: sans-serif;
 }
+
 
 section {
-    padding: 0px;
-}
-
-ul {
-    list-style-type: none;
+    width: 100vw;
+    margin: 0;
     padding: 0;
-}
-
-li {
-    margin-top: 10px;
-    margin-left: 0;
-}
-
-h1 {
-    color: #048b68;
-    margin-top: 0;
-    margin-left: 15vw;
-    margin-bottom: 0;
-    padding-top: 35px;
-}
-
-h2 {
-    color: #048b68;
-    margin-top: 0;
-    font-size: 1.2em;
 }
 
 a {
     text-decoration: none;
-    color: #202532;
+    color: black;
 }
 
-* {
-    font-family: sans-serif;
+p {
+    line-height: 1.5em;
 }
 
-.thick-green-border {
-    border-color: #048b68;
-    border-width: 2px;
-    border-style: solid;
+
+
+/***** Billeder *****/
+
+#gruppe ul {
+    list-style: none;
+}
+
+#gruppe li {
+    margin: 10px 0 10px 0;
+}
+
+#gruppe img {
+    width: 40px;
     border-radius: 50%;
+    border: 2px solid #00694d;
 }
 
-.smaller-image {
-    width: 30px;
+img {
+    width: 80%;
+    opacity: 0.8;
 }
 
-/* Dropdown Button */
-
-.dropbtn {
-    background-color: #048b68;
-    color: #C0D8D3;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background-position: top;
-    z-index: -1;
-
-}
-
-/* Dropdown button on hover & focus */
-
-.dropdown-content a:hover,
-.dropdown-content a:focus {
-    color: #202532;
-}
-
-/* The container <div> - needed to position the dropdown content */
-
-.dropdown {
-    position: fixed;
-    display: inline-block;
-    z-index: 2;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #97eecf;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #048b68;
-    padding: 15px 15px;
-    text-decoration: none;
-    display: block;
-    font-family: 'renner*';
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/****** menu slut *****/
-
-/******Titel ******/
-
-#titel {
-    text-align: center;
-    position: relative;
-    background-color: #97eecf;
-    z-index: 0;
-
-}
-
-/***** gruppe ********/
-
-#gruppe {
-    background-color: #97eecf;
-}
-
-#gruppe .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+#style img {
+    margin-top: 20px;
     width: 100%;
+    opacity: 1;
 }
 
-#gruppe .column1 {
-    /* flex-grow: 1;*/
-    flex-basis: 230px;
-    /*  margin: 10px;
-    padding-left: 15vw;*/
-}
-
-#gruppe .column2 {
-    /*flex-grow: 1;*/
-    flex-basis: 230px;
-    /*   margin: 10px; */
-}
-
-#gruppe .column2 a {
-    width: 7vw;
-    text-decoration: none;
-}
-
-.column2 a:hover {
-    color: #048b68;
-}
-
-/***** Empathize ***/
-
-#emp {
-    background-color: #048b68;
-}
-
-#emp h1 {
-    color: #C0D8D3;
-}
-
-#emp h3 {
-    margin-left: 15vw;
-    color: #C0D8D3;
-}
-
-#emp img {
-    width: 20vw;
-    margin-left: 15vw;
-}
-
-#emp p {
-    width: 70vw;
-    margin-left: 15vw;
-}
-
-#emp .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#emp .columna {
-    flex-grow: 0;
-    flex-basis: 450px;
-    width: 20vw;
-}
-
-#emp .columnb {
-    flex-grow: 3;
-    flex-basis: 450px;
-    max-width: 30vw;
-    padding-left: 10px;
-}
-
-#emp a:hover {
-    color: #C0D8D3;
-}
-
-/***** Empathize slut***/
-
-/***** Define/Målgruppe *********/
-
-#def {
-    background-color: #97eecf;
-}
-
-#def h3 {
-    margin-left: 15vw;
-}
-
-#def p {
-    margin-left: 15vw;
-}
-
-#def img {
-    margin-left: 15vw;
-    max-width: 300px;
-}
-
-#def p {
-    width: 70vw;
-}
-
-/***** Define/Målgruppe *********/
-
-/***** Ideate *****/
-
-#ide {
-    background-color: #048b68;
-}
-
-#ide h1 {
-    color: #C0D8D3;
-}
-
-#ide a {
-    color: #C0D8D3;
-}
-
-#ide a:hover {
-    color: black;
-}
-
-#ide h2 {
-    color: #C0D8D3;
-    margin-left: 15vw;
-    margin-top: 15px;
-}
-
-#ide h3 {
-    margin-left: 15vw;
-}
-
-#ide h4 {
-    margin-left: 15vw;
-}
-
-#ide p {
-    width: 80vw;
-    margin-left: 15vw;
-    margin-bottom: 0;
-    padding-bottom: 15px;
-}
-
-/***** Ideate slut *****/
-
-/***** Prototype test ****/
-
-#proto {
-    background-color: #97eecf;
-}
-
-#proto h3 {
-    color: #048b68;
-    margin-left: 15vw;
-}
-
-#proto iframe {
-    margin-left: 15vw;
-    width: 50vw;
-    height: 33vw;
-}
-
-/***** Prototype test slut ****/
-
-/**** benchmarking *******/
-
-#benchmarking {
-    background-color: #048b68;
-}
-
-#benchmarking h1 {
-    color: #C0D8D3;
-}
-
-#benchmarking p {
-    color: #C0D8D3;
-    margin-left: 15vw;
-    margin-bottom: 0;
-    padding-bottom: 15px;
-}
-
-#benchmarking a:hover {
-    color: #C0D8D3;
-}
-
-/*********** Endelig idé *********/
-
-#end {
-    background-color: #97eecf;
-}
-
-#end a {
-    color: #048b68;
-    margin-left: 15vw;
-}
-
-#end h3 {
-    color: #048b68;
-    margin-left: 15vw;
-}
-
-#end iframe {
-    margin-left: 15vw;
-    width: 50vw;
-    height: 33vw;
-}
-
-#end a:hover {
-    color: black;
-}
-
-/********* Endelig idé slut **********/
-
-/********* Ikon design ***************/
-
-#ikon {
-    background-color: #048b68;
-}
-
-#ikon h1 {
-    color: #C0D8D3;
-}
-
-#ikon h3 {
-    color: #C0D8D3;
-    margin-left: 15vw;
+#ikon img {
+    margin-top: 20px;
+    width: 70%;
 }
 
 #ikon p {
-    width: 70vw;
-    margin-left: 15vw;
-    color: #C0D8D3;
+    padding: 20px 40px 20px 40px;
+}
+
+#ikon h3 {
+    padding: 20px 40px 20px 40px;
+}
+
+iframe {
+    width: 100% !important;
 }
 
 
-#ikon img {
-    width: 20vw;
-    margin-left: 15vw;
+/***** INDHOLD *****/
+
+.sectionwrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+
+    padding: 20px;
 }
 
-/***************Ikon design slut ************/
-
-/************** Styletile *******************/
-
-.style p {
-    width: 70vw;
-    margin-left: 15vw;
-    color: #048b68;
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.style img {
-    padding-left: 15vw;
-    width: 60vw;
-    padding-bottom: 20px;
+.column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    align-content: center;
+    padding: 20px 40px 20px 40px;
 }
 
-/******** styletile slut *********/
-
-/******** Usability test ********/
-
-#test {
-    background-color: #048b68;
-}
-
-#test iframe {
-    margin-left: 15vw;
-    width: 50vw;
-    height: 33vw;
-}
-
-#test h1 {
-    color: #C0D8D3;
-}
-
-#test h3 {
-    padding-left: 15vw;
-    color: #C0D8D3;
-}
-
-#test p {
-    padding-left: 15vw;
-    color: #C0D8D3;
-}
-
-#test a:hover {
-    color: #C0D8D3;
-}
-
-/******** Usability test  slut ********/
-
-/******** footer ************/
-
-footer {
+h1 {
+    background-color: #97eecf;
+    font-size: 2em;
     text-align: center;
+    margin: 0;
+    padding: 15px;
+    color: #00694d;
 }
 
-/********* footer slut **********/
+h2 {
+    margin: 0;
+    padding: 10px 40px 10px 40px;
+}
+
+h3 {
+    font-size: 1.3em;
+    padding: 0 0 10px 0;
+}
+
+
+/************* SECTION COLORS **************/
+
+section#gruppe {
+    background-color: #97eecf;
+}
+
+section#emp {
+    background-color: #048b68;
+    color: #c1e0d5;
+}
+
+section#def {
+    background-color: #97eecf;
+}
+
+section#ide {
+    background-color: #048b68;
+    color: #c1e0d5;
+}
+
+section#proto {
+    background-color: #97eecf;
+}
+
+section#benchmarking {
+    background-color: #048b68;
+    color: #c1e0d5;
+}
+
+section#end {
+    background-color: #97eecf;
+}
+
+section#ikon {
+    background-color: #048b68;
+    color: #c1e0d5;
+}
+
+section#style {
+    background-color: #97eecf;
+}
+
+section#test {
+    background-color: #048b68;
+    color: #c1e0d5;
+}
+
+#gruppe h2,
+#gruppe h3,
+#def h2,
+#def h3,
+#proto h2,
+#proto h3,
+#end h2,
+#end h3,
+#style h2,
+#style h3 {
+    color: #00694d;
+}
+
+#emp h2,
+#emp h3,
+#ide h2,
+#ide h3,
+#benchmarking h2,
+#benchmarking h3,
+#ikon h2,
+#ikon h3,
+#test h2,
+#test h3 {
+    color: #C0D8D3;
+}
