@@ -372,6 +372,14 @@ a {
     margin-left: 15vw;
 }
 
+
+#test iframe {
+    margin-left: 15vw;
+    width: 50vw;
+    height: 33vw;
+}
+
+
 /***************Ikon design slut ************/
 
 /************** Styletile *******************/
