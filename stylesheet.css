@@ -48,6 +48,8 @@ p {
 }
 
 img {
+    position: relative;
+    margin: 0 auto;
     width: 80%;
 }
 
@@ -64,6 +66,11 @@ img {
 
 #ikon p {
     padding: 20px 40px 20px 40px;
+}
+
+#logo {
+    width: 50%;
+    height: auto;
 }
 
 #ikon h3 {
