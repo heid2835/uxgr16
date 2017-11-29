@@ -112,4 +112,9 @@ footer {}
 a {
     color: white;
     font-family: sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
 }
