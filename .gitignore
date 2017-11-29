@@ -3,3 +3,6 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+.DS_Store
+git add .gitignore
+git commit -m '.DS_Store banished!'
