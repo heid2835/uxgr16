@@ -1,17 +1,3 @@
-/* Farvekoder:
-
-
-Empathize: 4FC7E0;
-Define: ACD484;
-Ideate: F8A663;
-Prototype: F17F65;
-Test: DD6668;
-Iterate: 5C95C9;
-
-Lilla: D968B2;
-
-*/
-
 body {
     margin: 0;
     padding: 0;
@@ -372,14 +358,6 @@ a {
     margin-left: 15vw;
 }
 
-
-#test iframe {
-    margin-left: 15vw;
-    width: 50vw;
-    height: 33vw;
-}
-
-
 /***************Ikon design slut ************/
 
 /************** Styletile *******************/
@@ -393,3 +371,37 @@ a {
 footer {
     text-align: center;
 }
+
+/******** styletile slut *********/
+
+/******** Usability test ********/
+
+#test {
+    background-color: #048b68;
+}
+
+#test iframe {
+    margin-left: 15vw;
+    width: 50vw;
+    height: 33vw;
+}
+
+#test h1 {
+    color: #C0D8D3;
+}
+
+#test h3 {
+    padding-left: 15vw;
+    color: #C0D8D3;
+}
+
+#test p {
+    padding-left: 15vw;
+    color: #C0D8D3;
+}
+
+#test a:hover {
+    color: #C0D8D3;
+}
+
+/******** Usability test  slut ********/
