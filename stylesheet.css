@@ -1,21 +1,7 @@
-/* Farvekoder:
-
-
-Empathize: 4FC7E0;
-Define: ACD484;
-Ideate: F8A663;
-Prototype: F17F65;
-Test: DD6668;
-Iterate: 5C95C9;
-
-Lilla: D968B2;
-
-*/
-
 body {
     margin: 0;
     padding: 0;
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 section {
@@ -98,7 +84,7 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #C0D8D3;
+    background-color: #97eecf;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
@@ -124,7 +110,7 @@ a {
 #titel {
     text-align: center;
     position: relative;
-    background-color: #C0D8D3;
+    background-color: #97eecf;
     z-index: 0;
 
 }
@@ -132,25 +118,27 @@ a {
 /***** gruppe ********/
 
 #gruppe {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #gruppe .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
 
 #gruppe .column1 {
-    flex-grow: 1;
-    flex-basis: 375px;
-    margin: 10px;
-    padding-left: 15vw;
+    /* flex-grow: 1;*/
+    flex-basis: 230px;
+    /*  margin: 10px;
+    padding-left: 15vw;*/
 }
 
 #gruppe .column2 {
-    flex-grow: 10;
-    flex-basis: 375px;
-    margin: 10px;
+    /*flex-grow: 1;*/
+    flex-basis: 230px;
+    /*   margin: 10px; */
 }
 
 #gruppe .column2 a {
@@ -214,7 +202,7 @@ a {
 /***** Define/Målgruppe *********/
 
 #def {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #def h3 {
@@ -280,7 +268,7 @@ a {
 /***** Prototype test ****/
 
 #proto {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #proto h3 {
@@ -320,7 +308,7 @@ a {
 /*********** Endelig idé *********/
 
 #end {
-    background-color: #C0D8D3;
+    background-color: #97eecf;
 }
 
 #end a {
@@ -372,14 +360,6 @@ a {
     margin-left: 15vw;
 }
 
-
-#test iframe {
-    margin-left: 15vw;
-    width: 50vw;
-    height: 33vw;
-}
-
-
 /***************Ikon design slut ************/
 
 /************** Styletile *******************/
@@ -390,6 +370,50 @@ a {
     color: #048b68;
 }
 
+.style img {
+    padding-left: 15vw;
+    width: 60vw;
+    padding-bottom: 20px;
+}
+
+/******** styletile slut *********/
+
+/******** Usability test ********/
+
+#test {
+    background-color: #048b68;
+}
+
+#test iframe {
+    margin-left: 15vw;
+    width: 50vw;
+    height: 33vw;
+}
+
+#test h1 {
+    color: #C0D8D3;
+}
+
+#test h3 {
+    padding-left: 15vw;
+    color: #C0D8D3;
+}
+
+#test p {
+    padding-left: 15vw;
+    color: #C0D8D3;
+}
+
+#test a:hover {
+    color: #C0D8D3;
+}
+
+/******** Usability test  slut ********/
+
+/******** footer ************/
+
 footer {
     text-align: center;
 }
+
+/********* footer slut **********/
