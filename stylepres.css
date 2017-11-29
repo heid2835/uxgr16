@@ -4,11 +4,112 @@
 
 body {
     background-image: url(img/baggrund_presentationsite.png);
-    background-position: fixed;
+    /*    background-position: fixed;*/
+    background-size: auto;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#top {
+    background-image: url(img/Logoubaggrund.png);
+    width: 33.33vw;
+    height: 8vw;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
     background-size: cover;
 }
 
-top {
-    background-image: url(img/Logoubaggrund.png);
-    background-size: ;
+.video {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: helvetica, arial;
+}
+
+iframe {
+    display: block;
+}
+
+#sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#column {
+    background-image: url(img/box1.png);
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-left: 15%;
+    color: white;
+    font-family: helvetica, arial;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 15%;
+}
+
+li {
+    margin-top: 10px;
+    color: white;
+    font-family: helvetica, arial;
+}
+
+p {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: helvetica, arial;
+}
+
+footer {}
+
+#back {
+    background-color: #048b68;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+    left: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+#slide {
+    background-color: #048b68;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
 }
