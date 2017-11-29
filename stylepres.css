@@ -29,7 +29,7 @@ body {
 
 h1 {
     color: white;
-    font-family: sans-serif;
+    font-family: helvetica, arial;
 }
 
 iframe {
@@ -48,6 +48,8 @@ iframe {
     width: 500px;
     height: 500px;
     margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #image {
@@ -58,7 +60,7 @@ iframe {
 h2 {
     margin-left: 15%;
     color: white;
-    font-family: sans-serif;
+    font-family: helvetica, arial;
     margin-top: 20px;
 }
 
@@ -69,12 +71,12 @@ ul {
 li {
     margin-top: 10px;
     color: white;
-    font-family: sans-serif;
+    font-family: helvetica, arial;
 }
 
 p {
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
-    font-family: sans-serif;
+    font-family: helvetica, arial;
 }
