@@ -80,3 +80,36 @@ p {
     color: white;
     font-family: helvetica, arial;
 }
+
+footer {}
+
+#back {
+    background-color: #048b68;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+    left: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+#slide {
+    background-color: #048b68;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+}
