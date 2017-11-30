@@ -259,3 +259,11 @@ section#test {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+footer {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #00694d;
+    color: white;
+}
